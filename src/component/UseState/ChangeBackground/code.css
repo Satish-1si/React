@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+}
+.container{
+    height:600px;
+    width:100vw;
+    border:0px;
+    background-position: fixed;
+}
+.section{
+    height:590px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height:40px;
+    width:120px;
+    margin-left:5px;
+    border-radius: 10px;
+    border:solid;
+    font-family: Verdana;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+
+}

@@ -1,0 +1,60 @@
+# Text-varitions-kavali-anataa 
+                   ===> <Typography>component</Typography>
+                   ===>props:-
+                      * variant = "h1-h6"                 ========>for headings of different levels.
+                      * variant = "subtitle1-subtitle2"   =========>for subtitles.
+                      * variant = "body1-body2"           ============>for regular body text.
+                      * variant = "button"                ============>for button text.
+                      * variant = "caption"               ========>used in caption
+                      * variant = "overline"              ========>used in caption
+----------------------------------------------------------------------------------------------------------
+colors:-'inherit' | 'primary' | 'secondary' | 'success' | 'error' | 'info' | 'warning' | string
+----------------------------------------------------------------------------------------------------------
+button-sizes:- 1.size="small"
+               2.size="large"
+               3.size="medium"
+-----------------------------------------------------------------------------------------------------------
+#button:-<Button>component</Button>
+                      ===>props:-
+                      * variant = "contained"    ========> apply bg,text-visible
+                      * variant = " text "       ========>!apply bg,text-visible
+                      * variant = "outlined"     ========>!apply bg,text-visible,border-apply
+                     -----------------------------------------------------------------------------
+                      * disabled   ========> !apply bg,
+                                             text-visible --->(lightly-visible)
+                                             !border-apply
+                                    ------------------------------
+                      *disabled state --->bataki thesukuravalli anataa
+                      1. disableElevation   ========> apply bg,
+                                                      text-visible --->(lightly-visible)
+                                                      border-apply
+-------------------------------------------------------------------------------------------------------------
+#button ==> 1.links  ====> ni props kindaa pass cheyavachu
+            eg:-<Button href="#link" >component</Button>
+            2.Icons  ====> ni props kindaa pass chesi btn text pakanaa Icon ni set cheyavachu
+            eg:-<Button    startIcon={<SendIcon/>} >Button</Button>  -->before text icon add
+                <Button    endIcon={<SendIcon/>}   >Button</Button>  -->after  text icon add
+-------------------------------------------------------------------------------------------------------------
+#Icon-Button-create ===> 2components use chesthamu...==>1.IconButton component (props) > 2.IconTypeComponent
+
+ 1.<IconButton > <IconTypeComponent/></IconButton>
+props:- 1.color="info" 
+        2.size="large"    etc......
+
+-------------------------------------------------------------------------------------------------------------
+#Button-gruop ===> at atime all btn to pass prop-styles 
+<ButtonGroup 
+                color="error"
+                variant='contained'
+                size="medium"
+                orientation='vertical' 
+                aria-label="alignment button group"
+              >
+                        <Button onClick={()=>alert("satish manepalli")} >Group_btn_component</Button>
+                        <Button >Group_btn_component</Button>
+                        <Button >Group_btn_component</Button>
+</ButtonGroup>
+---------------------------------------------------------------------------------------------------------------
+
+
+

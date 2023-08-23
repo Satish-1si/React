@@ -1,0 +1,1 @@
+export let styles=[{text:"stop",color:"red"},{text:"Reddy",color:"green"},{text:"stop",color:"go"}]

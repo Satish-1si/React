@@ -1,0 +1,67 @@
+*{
+  margin:0px;
+}
+
+.Container{
+    height:1000px;
+    background-color: rgb(115, 143, 134);
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+.Card{
+    height:400px;
+    width:400px;
+    background-color: rgb(247, 249, 249);
+    margin:5px;
+    border-radius: 10px;
+    padding:10px;
+}
+.Card img{
+    height:50%;
+    width:78%;
+}
+.mainnav{
+    height: 50px;
+    min-width: 505px;
+    background-color: rgb(246, 244, 244);
+    color: tomato;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size:1em;
+    margin-bottom: 0px;
+    border-radius: 1px;
+    
+}
+.childnav{
+    height: 30px;
+    margin-right: 0px 21px; 
+
+
+    
+    background-color: rgb(180, 170, 170);
+    color: rgb(11, 45, 235);
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    border-radius: 3px;
+    justify-content: center;
+   
+}
+.Card input,a{
+    margin-top: 20px;
+}
+input{
+    height: 20px;
+    width:18px;
+    background-color: brown;
+}

@@ -1,0 +1,9 @@
+1.user button ==>click chesinapudu ===> data,style change valli
+
+#Child-element ki props pass chesthamu.
+#props chesinapudu that child-element data techukovadaniki ==>parentCallback ni pampi ===>child-data ni akkada nichi pass chesichukuntamu parent ki
+# parent ki vachinaa ==>child Data ni ==>maniki teginaa vidamugaa use chsukuntamu (i.e:- eg: state ni Update chesthamu).
+#updateState tho ==>data ni Dynamic gaa change chesthamu....
+
+1.parentcomponet==>childComponet(props,parentcallBack)
+2. StateUpdate chesthamu<---parentcallBack(arg)<---parentComponent<===parentCallback(childData)<---useraction<---childComponent

@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+}
+.header{
+    height:700px;
+    font-family: Verdana;
+    font-size: 15px;
+    border: solid;
+}
+.navbar button{
+    height:40px;
+    width:120px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.navbar{
+    background-color: bisque;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+css-lists:3-properties:-
+1.list-style-type:bullet-point-type
+2.list-style-position:bullet-point-position ===>1.outside (default)
+                                            ===>2.inside
+3.list-style-image: url('bullet.png')
+--------------------------------- shorthand-writing------------------------------------------------------
+1.list-style:square inside url('bullet.png');
+-------------------------bullet-point-type----------------------------------------------
+#unordered-lists:-<ul>
+ 1.list-style-type:disc         ||  type="disc"
+                  :circle       ||  type="circle"
+                  :square       ||  type="square"
+                  :none         ||  type="none"
+ #ordered-lists:-<ol>
+ 2.list-style-type: decimal     ||  type="1"    ====>Decimal numbers (default)
+                  :lower-alpha  ||  type="a"    ====>Lowercase letters (a, b, c, ...)
+                  :upper-alpha  ||  type="A"    ====>Uppercase letters (A, B, C, ...)
+                  :lower-roman  ||  type="i"    ====>Lowercase_Roman_numerals (i, ii, iii, ...)
+                  :upper-roman  ||  type="I"    ====>Uppercase_Roman_numerals (I, II, III, ...)
+                  : none        ||  type="none" ====>No marker is displayed.
+-----------------------change==>element-property--------------------------------------------
+#li,ol,ul -->block-line elements -->takes full width 
+1.block: (Default) 
+2.inline:  
+3.inline-block:
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+

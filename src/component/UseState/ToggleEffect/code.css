@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+.container {
+    background-color: tomato;
+    height: 600px;
+    font-size: 15px;
+    font-family: Verdana;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
+    height:30vh;
+    width:80vw;
+    text-align: center;
+}
+h1{
+    
+    background-color:rgb(189, 182, 101);
+    padding-top:20px;
+}
+h3{
+    background-color: rgb(189, 182, 101);
+    padding:30px;
+    text-align: justify;
+
+    
+
+}
+hr {
+    color: rgb(5, 5, 24);
+    border-style: solid;
+  }
